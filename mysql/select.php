@@ -3,8 +3,7 @@
 <?php
 $sql = 'SELECT * FROM users ORDER BY id DESC LIMIT 5';
 $myusers = mysqli_query($connection, $sql);
-
-.
+$name = 'mohamed';
 ?>
 
 <table border=1 cellspacing="1">
@@ -16,6 +15,7 @@ $myusers = mysqli_query($connection, $sql);
 			<th>Created At</th>
 		</tr>
 	</thead>
+
 	<tbody>
 		<?php if(mysqli_num_rows($myusers)>0): ?>
 			<?php while($row = mysqli_fetch_assoc($myusers)): ?>
@@ -33,4 +33,8 @@ $myusers = mysqli_query($connection, $sql);
 		<?php endif; ?>
 	</tbody>
 </table>
+
+
+
+<h1>End of file</h1>
 
