@@ -3,7 +3,8 @@
 <?php
 $sql = 'SELECT * FROM users ORDER BY id DESC LIMIT 5';
 $myusers = mysqli_query($connection, $sql);
-$name = 'ahmed';
+
+.
 ?>
 
 <table border=1 cellspacing="1">
