@@ -1,5 +1,6 @@
 <?php session_start(); ?>
 <?php
+	//unset session
 	unset($_SESSION['myname']);
 ?>
 
