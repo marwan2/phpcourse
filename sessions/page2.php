@@ -5,5 +5,3 @@
 ?>
 
 <?php echo $_SESSION['myname']; ?>
-
-fdskjfdshjkfdhsfjk
