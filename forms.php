@@ -1,5 +1,6 @@
 <?php
 
+
 $str = 'This is a Mohamed\'s Watch ---- "<>?#^)(&*' ;
 //echo html_entity_encode($str);
 
