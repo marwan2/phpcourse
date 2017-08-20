@@ -11,6 +11,9 @@
 .home_slider .item img {width: 100%;}
 .branding {padding:10px 30px;}
 
-footer {background: #666; padding:50px; color: #fff}
+footer {background: #666; padding:50px 20px; color: #fff}
 footer a {color: #f0f0f0}
 footer a:hover {color: #ffff00}
+
+.img_wrap {max-height: 150px; overflow: hidden;}
+.img_wrap img {width: 100%;}

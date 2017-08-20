@@ -1,3 +1,7 @@
+<?php
+
+rand(1000, 9999);
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -142,14 +146,16 @@
 			<?php for ($i=0; $i < 9; $i++): ?>
 				<div class="col-md-3">
 					<div class="thumbnail">
+						<div class="img_wrap">
 				      	<img src="images/product.svg" />
+				      	</div>
 					      <div class="caption">
 					        <h3>The Product Title <?=$i?></h3>
 					        <p>USD 150</p>
 					        <p>
-					        <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
-					        <a href="#" class="btn btn-default"><i class="fa fa-heart"></i></a>
-					        <a href="#" class="btn btn-default"><i class="fa fa-list"></i></a>
+					        	<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+					        	<a href="#" class="btn btn-default"><i class="fa fa-heart"></i></a>
+					        	<a href="#" class="btn btn-default"><i class="fa fa-list"></i></a>
 					        </p>
 					      </div>
 				    </div>	
