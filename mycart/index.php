@@ -1,7 +1,3 @@
-<?php
-
-rand(1000, 9999);
-
 <!DOCTYPE html>
 <html>
 <head>
