@@ -17,7 +17,6 @@ class PostsController extends Controller
 
     public function save(Request $request)
     {
-    	.em
     	$validator = \Validator::make($request->all(), [
     		'name'=>'required',
     		'email'=>'required|email']
