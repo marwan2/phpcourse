@@ -1,5 +1,9 @@
 <?php
 
+Route::get('posts', 'Dash\\PostsController@ajaxPost');
+Route::post('posts/save', 'Dash\\PostsController@save');
+Route::get('posts/list', 'Dash\\PostsController@lists');
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -15,7 +19,6 @@ Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware'=>['login']],
 });
 
 Route::group(['prefix'=>'/', 'namespace'=>'Front'], function() {
-
 	Route::controller('/', 'HomeController');
 });
 
